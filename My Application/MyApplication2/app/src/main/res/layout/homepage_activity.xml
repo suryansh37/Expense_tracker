@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageActivity"
+    android:background="@drawable/gradient_background"
+    tools:ignore="ExtraText">>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="114dp"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/view_statistics"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="231dp"
+            android:layout_marginBottom="532dp"
+            android:text="@string/hello"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="143dp"
+            android:text="@string/username"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="376dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="217dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/how_can_we_help_you_today"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="174dp"
+            android:layout_height="53dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="272dp"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/view_expenses"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="133dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="195dp"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/view_income"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="303dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="14dp"
+            android:text="@string/log_out" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
